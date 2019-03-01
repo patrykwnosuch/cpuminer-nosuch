@@ -20,7 +20,7 @@ sed -i 's/"-lpthreadGC2"/"-lpthread"/g' configure.ac
 #extracflags="$extracflags -Ofast -flto -fuse-linker-plugin -ftree-loop-if-convert-stores"
 
 #CFLAGS="-O3 -march=native -Wall" ./configure --with-curl --with-crypto=$HOME/usr
-CFLAGS="-Wall -g -O2 -msse2" ./configure --with-curl CC=gcc-8 CXX=g++-8
+CFLAGS="-Wall -g -O2 -msse2" ./configure --with-curl CC=gcc CXX=g++
 #CFLAGS="-O3 -march=native -Wall" CXXFLAGS="$CFLAGS -std=gnu++11" ./configure --with-curl
 
 make -j 4
