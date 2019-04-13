@@ -789,12 +789,12 @@ Options:\n\
                           x16s          Pigeoncoin (PGN)\n\
                           x17\n\
                           xevan         Bitsend (BSD)\n\
-			  yespower      Cryply (CRP), Bellcoin (BELL)\n\
-			  yespowerr16   \n\
-                          yescrypt      Globlboost-Y (BSTY), Koto (KOTO)\n\
+			  yespower      Cryply (CRP), Bellcoin (BELL), Veco (VECO)\n\
+			  yespowerr16   Yenten v3 (YTN)\n\
+                          yescrypt      Globalboost-Y (BSTY), Koto (KOTO)\n\
                           yescryptr8    BitZeny (ZNY)\n\
-                          yescryptr16   Yenten (YTN)\n\
-                          yescryptr32   Wavi (WAVI), Soyuz (COM), Litebitcoin (LBTC)\n\
+                          yescryptr16   Elicoin (ELI)\n\
+                          yescryptr32   Wavi (WAVI), Litebitcoin (LBTC)\n\
                           zr5           Ziftr\n\
   -o, --url=URL         URL of mining server\n\
   -O, --userpass=U:P    username:password pair for mining server\n\

@@ -61,6 +61,11 @@ void yespower_hash( const char *input, char *output, uint32_t len )
 	   static const yespower_params_t v2 = {YESPOWER_0_9, 2048, 32, NULL, 0};
 	   yespower_tls( (yespower_binary_t*)input, len, &v2, (yespower_binary_t*)output ); 
 	}
+  if (verstring==3)
+  {
+	  static const yespower_params_t v2 = {YESPOWER_0_9, 4096, 16, NULL, 0};
+	  yespower_tls( (yespower_binary_t*)input, len, &v2, (yespower_binary_t*)output );
+	}
 
 }
 
@@ -113,6 +118,6 @@ bool register_yespowerr16_algo( algo_gate_t* gate )
   gate->scanhash   = (void*)&scanhash_yespower;
   gate->hash      = (void*)&yespower_hash;
   gate->set_target = (void*)&scrypt_set_target;
-  verstring=1;
+  verstring=3;
   return true;
 };
